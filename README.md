@@ -11,7 +11,7 @@ CONTACT US
 
 3. HOME | SHOP works on sm device as well as the links SHOP SKILLS STORIES ABOUT CONTACT US
 
-4. Filter Categories options are api fetched
+4. Filter (CATEGORIES) options are api fetched
 
 5. Images and info are fetched from api
 
