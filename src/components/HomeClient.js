@@ -110,8 +110,8 @@ export default function HomeClient({ products, categories }) {
               <section className={`products ${ showFilter ? "grid-3" : "grid-4"}`}>
                 {products.map((item) => (
                   <div className="card" key={item.id}>
-                    {/* <img src={item.image} alt={item.title} /> */} /* https://fakestoreapi.com/products */
-                    <img src={item.thumbnail} alt={item.title} />   /* https://dummyjson.com/products */
+                    {/* <img src={item.image} alt={item.title} /> */} {/* https://fakestoreapi.com/products */}
+                    <img src={item.thumbnail} alt={item.title} />   {/* https://dummyjson.com/products */}
                     <h4>
                       {item.title.length > 40
                         ? item.title.slice(0, 40) + "..."
